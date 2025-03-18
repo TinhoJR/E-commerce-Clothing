@@ -56,6 +56,12 @@ $(document).ready(function() {
 
 });
 
+ let swipers = new Swiper(".mySwipers", {
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});
+
 
 /*  let productContent = $(".product-content");
 
