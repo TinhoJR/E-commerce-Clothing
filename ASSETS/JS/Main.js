@@ -18,7 +18,7 @@ $(document).ready(function() {
 
    let swiper = new Swiper(".mySwiper", {
           
-    slidesPerView: 1,
+    slidesPerView: 2,
     spaceBetween: 10,
 
     /*  navigation: {
@@ -71,18 +71,32 @@ $(document).ready(function() {
 
         cartbtn.css("display", "block").slideIn()
 
-
-
-
     }, function() {
 
         cartbtn.css("display", "none")
 
-
-
-
-
     }) */
+
+
+        let productInfo = $(".product-information");
+
+         productInfo.on("click", function() {
+
+         let currentImage = $(this).data("image");
+
+         let fullImage = $(".full-image-detail");
+
+         productInfo.removeClass("active");
+
+         fullImage.css("display", "none");
+
+         $("#" + currentImage).css("display", "block");
+
+         $(this).addClass("active")
+
+         });
+
+         $("#default-image").click();
 
 
 })

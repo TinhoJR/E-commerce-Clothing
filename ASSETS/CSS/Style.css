@@ -358,7 +358,7 @@ nav{
 /* blog-section STARTS */
 
 .blog-section{
-    padding: 40px 80px;
+    padding: 60px 80px;
 }
 
 .blog-wrapper h2{
@@ -410,7 +410,138 @@ nav{
 
 /* blog-section ENDS */
 
+
+/* FOOTER STARTS */
+
+footer{
+    background-color: black;
+}
+
+.footer-content{
+    padding: 40px 40px;
+}
+
+.footer-list{
+    color: gray;
+}
+
+.location-info{
+    display: flex;
+    
+}
+
+.footer-list h4{
+    color: white;
+    padding: 15px 0px;
+}
+
+.location-info div i{
+    padding-right: 10px;
+}
+
+.socials-info{
+    display: flex;
+}
+
+.socials-info div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5px;
+    background-color: gray;
+    font-size: 20px;
+    margin-right: 10px;
+    color: black;
+}
+
+.footer-list ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.footer-list ul li{
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+.footer-list ul li:hover{
+    text-decoration: underline;
+}
+
+.footer-list form input{
+    width: 100%;
+    height: 50px;
+    padding: 7px 7px;
+    background-color: rgb(83, 82, 82);
+    border: none;
+}
+
+.footer-list form button{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border: none;
+
+}
+
+/* FOOTER ENDS */
+
 /* HOME PAGE ENDS  */
+
+
+/* PRODUCT DETAILS PAGE STARTS */
+
+.product-page{
+    padding: 60px 70px;
+    height: 70vh;
+    background-image: url(../IMAGES/Rectangle_44959_2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+/*  */
+
+.product-info-section{
+    padding: 50px 60px;
+}
+
+.product-information img{
+    width: 100%;
+    height: 110px;
+}
+
+.product-information{
+    
+    margin-bottom: 20px;
+}
+
+.product-information.active{
+    border: 2px solid black;
+
+}
+
+.product-information:hover{
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.full-image-detail{
+    height: 100%;
+    display: none;
+}
+
+.full-image-detail img{
+    width: 100%;
+    height: 100%;
+}
+
+/*  */
+
+/* PRODUCT DETAILS PAGE ENDS */
 
 
 
@@ -433,6 +564,60 @@ nav{
         background-position: none;
         background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    .product-section{
+       padding:10px 20px;
+    }
+
+    .product-content{
+        height: 60vh;
+       
+    }
+
+    .cart-btn{
+        bottom: 0px;
+        width: 130px;
+        right: 50px;
+        height: 40px;
+    }
+
+    /*  */
+
+    .categories-section{
+        padding: 30px 0px;
+    }
+
+    .categories-content{
+        padding: 20px 20px;
+    }
+
+    .top-categories button{
+        right: 35px;
+        width: 160px;
+    }
+
+    .comment-content h2{
+        font-size: 35px;
+    }
+
+    .comment-list p{
+        padding: 20px 20px;
+    }
+
+    .comment-list i{
+        font-size: 35px;
+    }
+
+
+    /*  */
+
+    .blog-section{
+        padding: 30px 20px;
+    }
+
+    .blog-wrapper h2{
+        font-size: 35px;
     }
 
 }
