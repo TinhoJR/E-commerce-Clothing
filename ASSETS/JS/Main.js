@@ -118,7 +118,31 @@ $(document).ready(function() {
             }
 
 
-          })
+          });
+
+
+          let increaseCart = $("#plus-one");
+
+          let decreaseCart = $("#minus-one");
+
+          let qualityAmount = 0;
+
+            increaseCart.on("click", function() {
+
+              qualityAmount++;
+
+              $("#quality-amount").text(qualityAmount);
+
+
+            });
+
+            decreaseCart.on("click", function() {
+
+              --qualityAmount;
+
+              $("#quality-amount").text(qualityAmount)
+
+            })
 
 
 })

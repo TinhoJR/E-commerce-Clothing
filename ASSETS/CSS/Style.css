@@ -458,6 +458,7 @@ footer{
 .footer-list ul{
     list-style-type: none;
     padding: 0px;
+   
 }
 
 .footer-list ul li{
@@ -543,6 +544,32 @@ footer{
     height: 100%;
 }
 
+
+.ratings-content i{
+    color: gold; 
+    font-size: 15px;  
+}
+
+.ratings-content h4{
+    padding-top: 10px;
+    padding-bottom: 3px !important;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.ratings-content h6{
+    font-size: 19px;
+    padding: 7px 0px;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ratings-content p{
+    padding: 0px !important;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .cloth-list{
     border: 1px solid rgba(225, 221, 221, 0.891);
     padding: 11px 15px;
@@ -596,7 +623,122 @@ footer{
     
 }
 
+.quantity-info p{
+    padding: 0px !important;
+    font-weight: 400;
+}
+
+.quantity-num{
+    width: 130px;
+    height: 50px;
+    border: 1px solid  rgba(225, 221, 221, 0.891);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 4px;
+    margin-right: 15px;
+}
+
+.quantity-num button{
+    background-color: transparent;
+    border: 0px;
+    font-size: 25px;
+}
+
+.quantity-num span{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.quantityNum-flex{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.addToCart{
+    background-color: black;
+    width: 230px;
+    height: 45px;
+    text-align: center;
+    padding-top: 4px;
+    color: white;
+    border: 0px;
+    font-weight: 500;
+}
+.buyNow-btn{
+    background-color: transparent;
+    width: 375px;
+    height: 45px;
+    text-align: center;
+    padding-top: 4px;
+    color: black;
+    border: 2px solid black;
+    font-weight: 500;
+    
+}
+
+.quantity-details{
+   
+    padding: 15px 0px;
+}
+
+
 /*  */
+
+.product-description{
+    padding: 40px 60px;
+}
+
+
+.description-info{
+    text-align: center;
+    border: 0px;
+    border-bottom: 1px solid rgba(225, 221, 221, 0.891);
+    justify-content: center;
+}
+
+.description-info h3{
+    padding: 10px 0px;
+    margin: 0px !important;
+    border: 0px;
+    border-bottom: 2px solid black;
+    width: 170px;
+    font-size: 22px;
+
+}
+
+.product-description h2{
+    padding: 30px 0px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.product-description ul li{
+
+    list-style-type: decimal;
+}
+
+
+/*  */
+
+
+/*  */
+
+.suggestion-content{
+    padding: 80px 60px;
+}
+
+.suggestion-content h2{
+    font-size: 40px;
+    font-weight:10;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+/*  */
+
+
 
 /* PRODUCT DETAILS PAGE ENDS */
 
