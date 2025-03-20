@@ -489,6 +489,10 @@ footer{
 
 /* FOOTER ENDS */
 
+.image-wrapper{
+    display: none;
+}
+
 /* HOME PAGE ENDS  */
 
 
@@ -774,11 +778,21 @@ footer{
        
     }
 
+    .product-list img{
+        height: fit-content;
+    }
+
     .cart-btn{
         bottom: 0px;
         width: 130px;
         right: 50px;
         height: 40px;
+    }
+
+
+    .image-wrapper{
+        display: block;
+        margin: 20px 0px;
     }
 
     /*  */
@@ -809,6 +823,10 @@ footer{
     }
 
 
+    .fixed-div{
+        display: none;
+    }
+
     /*  */
 
     .blog-section{
@@ -819,4 +837,28 @@ footer{
         font-size: 35px;
     }
 
+    /*  */
+
+    .product-description ul li{
+        padding-top: 6px;
+        font-size: 16px;
+    }
+
+
+    /*  */
+
+
+    /*  */
+
+    .product-info-section{
+        padding: 40px 20px;
+    }
+
+    .product-description{
+        padding: 40px 20px;
+    }
+
+    .suggestion-content{
+        padding: 40px 20px;
+    }
 }
