@@ -519,6 +519,10 @@ footer{
     margin-bottom: 20px;
 }
 
+.fixed-div{
+   
+}
+
 .product-information.active{
     border: 2px solid black;
 
@@ -537,6 +541,59 @@ footer{
 .full-image-detail img{
     width: 100%;
     height: 100%;
+}
+
+.cloth-list{
+    border: 1px solid rgba(225, 221, 221, 0.891);
+    padding: 11px 15px;
+    border-bottom: 0px;
+}
+
+.cloth-list:last-child{
+    border-bottom: 1px solid rgba(225, 221, 221, 0.891);
+}
+
+
+.cloth-detail{
+       background-color: transparent;
+       color: #444;
+       cursor: pointer;
+       width: 100%;
+       text-align: left;
+       border: none;
+       outline: none;
+       transition: 0.4s;
+       font-size: 17px;
+       font-weight: 400;
+}
+
+.cloth-detail i{
+    padding-right: 10px;
+}
+
+.cloth-detail:after{
+    content: '\2b';
+    font-size: 23px;
+    color: #777;
+    float: right;
+}
+
+.cloth-detail.active:after{
+    content: "\2796";
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.cloth-panel{
+    padding: 20px 0px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.cloth-panel p{
+    padding-bottom: 0px !important;
+    
 }
 
 /*  */

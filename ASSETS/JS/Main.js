@@ -99,4 +99,26 @@ $(document).ready(function() {
          $("#default-image").click();
 
 
+         let clothDetail = $(".cloth-detail");
+
+          clothDetail.on("click", function() {
+
+            $(this).toggleClass("active");
+
+            /* Toggle between hiding and showing the active panel */
+       
+            let panel = $(this).next();
+       
+            if(panel.css("display") === "block") {
+             
+               panel.css("display", "none")
+       
+            } else{
+               panel.css("display", "block")
+            }
+
+
+          })
+
+
 })
